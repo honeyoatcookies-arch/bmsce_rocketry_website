@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rocketry Team | Partners</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        space: "#0B1120",
+                        accentBlue: "#3B82F6",
+                        accentOrange: "#F97316"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-space text-white font-sans">
+
+<!-- NAVBAR -->
+<nav class="fixed w-full z-50 bg-space/80 backdrop-blur-md border-b border-blue-500/20">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+        <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-r from-accentBlue to-accentOrange flex items-center justify-center font-bold text-lg shadow-lg">
+                R
+            </div>
+            <span class="text-lg font-semibold tracking-widest text-accentBlue">
+                ROCKETRY TEAM
+            </span>
+        </div>
+
+        <div class="space-x-8 hidden md:flex text-sm tracking-wide">
+            <a href="home.html" class="hover:text-accentOrange transition">Home</a>
+            <a href="team.html" class="hover:text-accentOrange transition">Team</a>
+            <a href="projects.html" class="hover:text-accentOrange transition">Projects</a>
+            <a href="partners.html" class="text-accentOrange">Partners</a>
+            <a href="documentation.html" class="hover:text-accentOrange transition">Documentation</a>
+        </div>
+
+        <div class="flex space-x-4 text-accentBlue">
+            <a href="#"><i data-lucide="linkedin"></i></a>
+            <a href="#"><i data-lucide="instagram"></i></a>
+            <a href="mailto:email@example.com"><i data-lucide="mail"></i></a>
+            <a href="tel:+910000000000"><i data-lucide="phone"></i></a>
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<section class="pt-32 pb-16 text-center relative">
+
+    <div class="absolute top-10 left-20 w-72 h-72 bg-accentBlue opacity-10 blur-3xl rounded-full"></div>
+    <div class="absolute bottom-10 right-20 w-72 h-72 bg-accentOrange opacity-10 blur-3xl rounded-full"></div>
+
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        Our
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-accentBlue to-accentOrange">
+            Partners
+        </span>
+    </h1>
+
+    <p class="text-gray-400 max-w-2xl mx-auto">
+        Collaborating with industry leaders, academic mentors,
+        and innovation-driven organizations.
+    </p>
+
+</section>
+
+<section class="max-w-7xl mx-auto px-6 pb-24 space-y-24">
+
+    <!-- TITLE SPONSOR -->
+    <div>
+        <h2 class="text-2xl font-semibold mb-8 text-accentOrange">Title Sponsor</h2>
+
+        <div class="bg-white/5 backdrop-blur-md p-12 rounded-xl border border-orange-500/30 text-center">
+            <div class="h-32 bg-gray-700 rounded-lg flex items-center justify-center text-gray-400">
+                Logo Placeholder
+            </div>
+        </div>
+    </div>
+
+    <!-- GOLD PARTNERS -->
+    <div>
+        <h2 class="text-2xl font-semibold mb-8 text-accentBlue">Gold Partners</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div class="bg-white/5 p-8 rounded-xl border border-blue-500/20 text-center hover:border-accentBlue transition">
+                <div class="h-24 bg-gray-700 rounded-lg flex items-center justify-center text-gray-400">
+                    Logo
+                </div>
+            </div>
+
+            <div class="bg-white/5 p-8 rounded-xl border border-blue-500/20 text-center hover:border-accentBlue transition">
+                <div class="h-24 bg-gray-700 rounded-lg flex items-center justify-center text-gray-400">
+                    Logo
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SILVER PARTNERS -->
+    <div>
+        <h2 class="text-2xl font-semibold mb-8 text-accentOrange">Silver Partners</h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-white/5 p-6 rounded-xl border border-orange-500/20 text-center hover:border-accentOrange transition">
+                <div class="h-20 bg-gray-700 rounded-lg flex items-center justify-center text-gray-400">
+                    Logo
+                </div>
+            </div>
+
+            <div class="bg-white/5 p-6 rounded-xl border border-orange-500/20 text-center hover:border-accentOrange transition">
+                <div class="h-20 bg-gray-700 rounded-lg flex items-center justify-center text-gray-400">
+                    Logo
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TECHNICAL PARTNERS -->
+    <div>
+        <h2 class="text-2xl font-semibold mb-8 text-accentBlue">Technical Partners</h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-white/5 p-6 rounded-xl border border-blue-500/20 text-center hover:border-accentBlue transition">
+                <div class="h-20 bg-gray-700 rounded-lg flex items-center justify-center text-gray-400">
+                    Logo
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MENTORS -->
+    <div>
+        <h2 class="text-2xl font-semibold mb-8 text-accentOrange">
+            Academic & Industry Mentors
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white/5 p-6 rounded-xl border border-orange-500/20">
+                <h3 class="font-semibold mb-2">Mentor Name</h3>
+                <p class="text-gray-400 text-sm">Affiliation / Designation</p>
+            </div>
+
+            <div class="bg-white/5 p-6 rounded-xl border border-orange-500/20">
+                <h3 class="font-semibold mb-2">Mentor Name</h3>
+                <p class="text-gray-400 text-sm">Affiliation / Designation</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SPONSORSHIP CTA -->
+    <div class="bg-gradient-to-r from-accentBlue/20 to-accentOrange/20 p-12 rounded-2xl text-center border border-blue-500/20">
+        <h2 class="text-3xl font-bold mb-4">
+            Become a Partner
+        </h2>
+
+        <p class="text-gray-300 mb-8 max-w-2xl mx-auto">
+            Download our sponsorship brochure to explore collaboration opportunities
+            and branding benefits.
+        </p>
+
+        <div class="flex justify-center space-x-6">
+            <button class="px-8 py-3 rounded-full bg-accentBlue hover:bg-blue-600 transition shadow-lg shadow-blue-500/30">
+                Download Brochure
+            </button>
+
+            <button class="px-8 py-3 rounded-full border border-accentOrange text-accentOrange hover:bg-accentOrange hover:text-white transition">
+                Contact Us
+            </button>
+        </div>
+    </div>
+
+</section>
+
+<footer class="bg-space border-t border-blue-500/20 py-6 text-center text-gray-500 text-sm">
+    © 2026 Rocketry Team | All Rights Reserved
+</footer>
+
+<script>
+    lucide.createIcons();
+</script>
+
+</body>
+</html>

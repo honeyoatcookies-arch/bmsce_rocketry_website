@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rocketry Team | Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        space: "#0B1120",
+                        accentBlue: "#3B82F6",
+                        accentOrange: "#F97316"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-space text-white font-sans">
+
+<!-- NAVBAR -->
+<nav class="fixed w-full z-50 bg-space/80 backdrop-blur-md border-b border-blue-500/20">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+        <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-r from-accentBlue to-accentOrange flex items-center justify-center font-bold text-lg shadow-lg">
+                R
+            </div>
+            <span class="text-lg font-semibold tracking-widest text-accentBlue">
+                ROCKETRY TEAM
+            </span>
+        </div>
+
+        <div class="space-x-8 hidden md:flex text-sm tracking-wide">
+            <a href="home.html" class="hover:text-accentOrange transition">Home</a>
+            <a href="team.html" class="hover:text-accentOrange transition">Team</a>
+            <a href="projects.html" class="text-accentOrange">Projects</a>
+            <a href="partners.html" class="hover:text-accentOrange transition">Partners</a>
+            <a href="documentation.html" class="hover:text-accentOrange transition">Documentation</a>
+        </div>
+
+        <div class="flex space-x-4 text-accentBlue">
+            <a href="#"><i data-lucide="linkedin"></i></a>
+            <a href="#"><i data-lucide="instagram"></i></a>
+            <a href="mailto:email@example.com"><i data-lucide="mail"></i></a>
+            <a href="tel:+910000000000"><i data-lucide="phone"></i></a>
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<section class="pt-32 pb-16 text-center relative">
+
+    <div class="absolute top-10 left-20 w-72 h-72 bg-accentBlue opacity-10 blur-3xl rounded-full"></div>
+    <div class="absolute bottom-10 right-20 w-72 h-72 bg-accentOrange opacity-10 blur-3xl rounded-full"></div>
+
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        Our
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-accentBlue to-accentOrange">
+            Projects
+        </span>
+    </h1>
+
+    <p class="text-gray-400 max-w-2xl mx-auto">
+        A portfolio of our launch vehicles, experimental developments,
+        and future aerospace missions.
+    </p>
+
+</section>
+
+<section class="max-w-7xl mx-auto px-6 pb-24 space-y-24">
+
+    <!-- COMPLETED -->
+    <div>
+        <h2 class="text-2xl font-semibold mb-10 text-accentBlue">
+            Completed Launch Vehicles
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <div class="bg-white/5 backdrop-blur-md p-8 rounded-xl border border-blue-500/20 hover:border-accentBlue transition transform hover:-translate-y-2 duration-300">
+                <h3 class="text-xl font-semibold mb-3">Mission Alpha</h3>
+                <p class="text-gray-400 mb-6">
+                    Placeholder description of flight objective, mission profile,
+                    and system architecture.
+                </p>
+
+                <div class="grid grid-cols-2 gap-4 text-sm text-gray-300 mb-6">
+                    <div>Apogee: XXXX</div>
+                    <div>Velocity: XXXX</div>
+                    <div>Propulsion: XXXX</div>
+                    <div>Recovery: XXXX</div>
+                </div>
+
+                <button class="px-6 py-2 rounded-full bg-accentBlue hover:bg-blue-600 transition shadow-lg shadow-blue-500/30">
+                    View Details
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ONGOING -->
+    <div>
+        <h2 class="text-2xl font-semibold mb-10 text-accentOrange">
+            Ongoing Developments
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <div class="bg-white/5 backdrop-blur-md p-8 rounded-xl border border-orange-500/20 hover:border-accentOrange transition transform hover:-translate-y-2 duration-300">
+                <h3 class="text-xl font-semibold mb-3">Project Orion</h3>
+                <p class="text-gray-400 mb-6">
+                    Placeholder description of ongoing design phase,
+                    subsystem integration and testing roadmap.
+                </p>
+
+                <div class="grid grid-cols-2 gap-4 text-sm text-gray-300 mb-6">
+                    <div>Status: XXXX</div>
+                    <div>Target Apogee: XXXX</div>
+                    <div>Phase: XXXX</div>
+                    <div>Competition: XXXX</div>
+                </div>
+
+                <button class="px-6 py-2 rounded-full border border-accentOrange text-accentOrange hover:bg-accentOrange hover:text-white transition">
+                    Learn More
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FUTURE ROADMAP -->
+    <div>
+        <h2 class="text-2xl font-semibold mb-10 text-accentBlue">
+            Future Roadmap
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <div class="bg-white/5 backdrop-blur-md p-6 rounded-xl border border-blue-500/20 hover:border-accentBlue transition">
+                <h3 class="font-semibold mb-2">Mission Concept I</h3>
+                <p class="text-gray-400 text-sm">
+                    Placeholder concept mission description.
+                </p>
+            </div>
+
+            <div class="bg-white/5 backdrop-blur-md p-6 rounded-xl border border-orange-500/20 hover:border-accentOrange transition">
+                <h3 class="font-semibold mb-2">Mission Concept II</h3>
+                <p class="text-gray-400 text-sm">
+                    Placeholder concept mission description.
+                </p>
+            </div>
+
+            <div class="bg-white/5 backdrop-blur-md p-6 rounded-xl border border-blue-500/20 hover:border-accentBlue transition">
+                <h3 class="font-semibold mb-2">Advanced Research</h3>
+                <p class="text-gray-400 text-sm">
+                    Placeholder advanced aerospace research initiative.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<footer class="bg-space border-t border-blue-500/20 py-6 text-center text-gray-500 text-sm">
+    © 2026 Rocketry Team | All Rights Reserved
+</footer>
+
+<script>
+    lucide.createIcons();
+</script>
+
+</body>
+</html>

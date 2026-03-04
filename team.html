@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rocketry Team | Team</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        space: "#0B1120",
+                        accentBlue: "#3B82F6",
+                        accentOrange: "#F97316"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-space text-white font-sans">
+
+<!-- NAVBAR -->
+<nav class="fixed w-full z-50 bg-space/80 backdrop-blur-md border-b border-blue-500/20">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+        <!-- Logo -->
+        <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-r from-accentBlue to-accentOrange flex items-center justify-center font-bold text-lg shadow-lg">
+                R
+            </div>
+            <span class="text-lg font-semibold tracking-widest text-accentBlue">
+                ROCKETRY TEAM
+            </span>
+        </div>
+
+        <!-- Tabs -->
+        <div class="space-x-8 hidden md:flex text-sm tracking-wide">
+            <a href="home.html" class="hover:text-accentOrange transition">Home</a>
+            <a href="team.html" class="text-accentOrange">Team</a>
+            <a href="projects.html" class="hover:text-accentOrange transition">Projects</a>
+            <a href="partners.html" class="hover:text-accentOrange transition">Partners</a>
+            <a href="documentation.html" class="hover:text-accentOrange transition">Documentation</a>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="flex space-x-4 text-accentBlue">
+            <a href="#"><i data-lucide="linkedin"></i></a>
+            <a href="#"><i data-lucide="instagram"></i></a>
+            <a href="mailto:email@example.com"><i data-lucide="mail"></i></a>
+            <a href="tel:+910000000000"><i data-lucide="phone"></i></a>
+        </div>
+    </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<section class="pt-32 pb-16 text-center relative">
+
+    <div class="absolute top-10 left-20 w-72 h-72 bg-accentBlue opacity-10 blur-3xl rounded-full"></div>
+    <div class="absolute bottom-10 right-20 w-72 h-72 bg-accentOrange opacity-10 blur-3xl rounded-full"></div>
+
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        Meet Our
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-accentBlue to-accentOrange">
+            Team
+        </span>
+    </h1>
+
+    <p class="text-gray-400 max-w-2xl mx-auto">
+        Placeholder description about multidisciplinary collaboration,
+        innovation-driven engineering, and mission-focused execution.
+    </p>
+
+</section>
+
+<!-- TEAM SECTION TEMPLATE -->
+<section class="max-w-7xl mx-auto px-6 pb-20 space-y-20">
+
+    <!-- Senior Core -->
+    <div>
+        <h2 class="text-2xl font-semibold mb-8 text-accentBlue">Senior Core</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <!-- Member Card -->
+            <div class="bg-white/5 backdrop-blur-md p-6 rounded-xl border border-blue-500/20 hover:border-accentBlue transition transform hover:-translate-y-2 duration-300">
+                <div class="w-full h-48 bg-gray-700 rounded-lg mb-4 flex items-center justify-center text-gray-400">
+                    Image
+                </div>
+                <h3 class="text-lg font-semibold">Name Placeholder</h3>
+                <p class="text-gray-400 text-sm">Role / Designation</p>
+            </div>
+
+            <div class="bg-white/5 backdrop-blur-md p-6 rounded-xl border border-blue-500/20 hover:border-accentBlue transition transform hover:-translate-y-2 duration-300">
+                <div class="w-full h-48 bg-gray-700 rounded-lg mb-4 flex items-center justify-center text-gray-400">
+                    Image
+                </div>
+                <h3 class="text-lg font-semibold">Name Placeholder</h3>
+                <p class="text-gray-400 text-sm">Role / Designation</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Technical Division -->
+    <div>
+        <h2 class="text-2xl font-semibold mb-8 text-accentOrange">Technical Division</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+
+            <div class="bg-white/5 backdrop-blur-md p-6 rounded-xl border border-orange-500/20 hover:border-accentOrange transition transform hover:-translate-y-2 duration-300">
+                <div class="w-full h-40 bg-gray-700 rounded-lg mb-4 flex items-center justify-center text-gray-400">
+                    Image
+                </div>
+                <h3 class="text-md font-semibold">Name Placeholder</h3>
+                <p class="text-gray-400 text-sm">Subsystem</p>
+            </div>
+
+            <div class="bg-white/5 backdrop-blur-md p-6 rounded-xl border border-orange-500/20 hover:border-accentOrange transition transform hover:-translate-y-2 duration-300">
+                <div class="w-full h-40 bg-gray-700 rounded-lg mb-4 flex items-center justify-center text-gray-400">
+                    Image
+                </div>
+                <h3 class="text-md font-semibold">Name Placeholder</h3>
+                <p class="text-gray-400 text-sm">Subsystem</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Operations & Management -->
+    <div>
+        <h2 class="text-2xl font-semibold mb-8 text-accentBlue">Operations & Management</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+            <div class="bg-white/5 backdrop-blur-md p-6 rounded-xl border border-blue-500/20 hover:border-accentBlue transition transform hover:-translate-y-2 duration-300">
+                <div class="w-full h-40 bg-gray-700 rounded-lg mb-4 flex items-center justify-center text-gray-400">
+                    Image
+                </div>
+                <h3 class="text-md font-semibold">Name Placeholder</h3>
+                <p class="text-gray-400 text-sm">Role</p>
+            </div>
+
+            <div class="bg-white/5 backdrop-blur-md p-6 rounded-xl border border-blue-500/20 hover:border-accentBlue transition transform hover:-translate-y-2 duration-300">
+                <div class="w-full h-40 bg-gray-700 rounded-lg mb-4 flex items-center justify-center text-gray-400">
+                    Image
+                </div>
+                <h3 class="text-md font-semibold">Name Placeholder</h3>
+                <p class="text-gray-400 text-sm">Role</p>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-space border-t border-blue-500/20 py-6 text-center text-gray-500 text-sm">
+    © 2026 Rocketry Team | All Rights Reserved
+</footer>
+
+<script>
+    lucide.createIcons();
+</script>
+
+</body>
+</html>
